@@ -5,6 +5,9 @@ Yeni nesil text-ui
 ```lua
 exports['wild-ui']:Show("F", 'Arabaya Bin')
 ```
+```lua
+exports['wild-ui']:Hide()
+```
 
 ![gid](https://cdn.discordapp.com/attachments/1109181964549886026/1109396416931057714/image.png)
 
