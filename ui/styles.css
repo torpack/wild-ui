@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+/* html, body{
+	font-family: 'Jura', sans-serif;
+	overflow: hidden;
+} */
+
+body {
+	width:100%;
+	height:100%;
+	display: none;
+}
+
+.eCircle {
+    	border-radius: 20%;
+    	width: 1.1%;
+    	height: 1.8%;
+    	padding: 0.4%;
+	padding-bottom: 0.5%;
+    	background: rgba(255, 255, 255, 0);
+    	border: 2px solid rgba(47, 47, 47, 0.8);
+		background: linear-gradient(145deg, #00979c6f, #ffffff6f);
+		background-size: 400% 400%;
+		animation: gradient 3s ease infinite;
+		/* border-width: 4px; */
+/* 		border-style: solid; */
+
+
+	box-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7);
+    box-shadow: inset 0 0 5px #aeaeae;	
+	color: rgba(255, 255, 255, 0.8);
+    	text-align: center;
+		text-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7); 
+    	font: 1.1vw Arial, sans-serif;
+	top:48.8%;
+	left: 57.5%;
+	position:absolute;
+	transform:scale(0.8);
+}
+
+.line {
+    	width: 2%;
+    	height: 1%;
+	top:50.55%;
+	left: 55%;
+	position:absolute;
+	border-top: 2px solid rgba(255, 255, 255, 0.8);
+	border-left: 2px solid rgba(255, 255, 255, 0.8);
+	
+/* 	border-bottom-left-radius: 100%;
+	border-top-left-radius: 100%; */
+	animation: progres 1s linear; 
+}
+
+.text {
+	font-family: 'Poppins', sans-serif;
+	text-align:left;
+	position:absolute;
+	width:fit-content;
+	height: fit-content;
+	color:rgba(255, 255, 255, 0.8);
+	left: 60%;
+	top:49.4%;
+	display: block;
+	font-size: 1.1vw;
+	/* letter-spacing: 0.2vw; */
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7); 
+	font-weight: bold;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 0.2%;
+    }
+    50%{
+        width: 1.5%;
+    }
+    75%{
+        width: 1.8%;
+    }
+    100%{
+        width: 2%;
+    }
+};
